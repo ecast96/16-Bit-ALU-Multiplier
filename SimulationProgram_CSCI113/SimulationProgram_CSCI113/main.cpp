@@ -11,6 +11,7 @@
  To enter values for MD and MQ, there are two vectors in main.
  Slot 0 in vector is 0th spot in 16 bit number.
  Enter number from left to right.
+*/
 
 #include <iostream>
 #include <array>
