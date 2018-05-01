@@ -173,7 +173,7 @@ void Mult_16bit(vector<bool> MD, vector<bool> MQ, vector<bool> &PR){
 	printVectors(MD, MQ, AC, count);
 	cout << endl << endl;
     
-    bool of;
+    bool of; //Overflow boolean value
     
     //Loop that does main operation, 16 times, or size of MD, which should be 16.
     for(int i = 0; i < MD.size(); i++){
@@ -199,6 +199,8 @@ void Mult_16bit(vector<bool> MD, vector<bool> MQ, vector<bool> &PR){
 		cout <<  " --Step 2" << endl << endl;
 
     }
+	
+	cout << "Overflow: " << of << endl;
 
     //Concatenates MQ and AC into one vector, PR, the product vector.
 	PR.insert(PR.begin(), MQ.begin(), MQ.end());
