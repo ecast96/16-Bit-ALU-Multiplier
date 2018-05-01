@@ -13,7 +13,7 @@ Values are stored in vectors of boolean values:
  Counter is used to show steps in algorithm.
  
  ### How to input values
- In [main](16-Bit-ALU-Multiplier/blob/master/SimulationProgram_CSCI113/SimulationProgram_CSCI113/main.cpp):
+ In [main](SimulationProgram_CSCI113/SimulationProgram_CSCI113/main.cpp):
   - Change vector MD's values to any 16-bit number for the Multiplicand
   - Change vector MQ's values to any 16-bit number for the Multiplier
   
