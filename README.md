@@ -17,10 +17,6 @@ Values are stored in vectors of boolean values:
   - Change vector MD's values to any 16-bit number for the Multiplicand
   - Change vector MQ's values to any 16-bit number for the Multiplier
   
-<details>
-<summary>Sample Output</summary>
-<br>
-
-<details>
+[Sample Output](SimulationProgramOutputs.pdf)
   
 
