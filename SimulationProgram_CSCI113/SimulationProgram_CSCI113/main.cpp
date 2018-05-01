@@ -11,12 +11,6 @@
  To enter values for MD and MQ, there are two vectors in main.
  Slot 0 in vector is 0th spot in 16 bit number.
  Enter number from left to right.
-
- Notes:
- 16Bit ALU is done by calling 1bit alu 16 times without a loop, which might not be an efficient way to do it.
- i tried to use a for loop, but i wasn't able to get it working for some reason.
-
-
 */
 
 #include <iostream>
@@ -181,7 +175,7 @@ void Mult_16bit(vector<bool> MD, vector<bool> MQ, vector<bool> &PR){
     
     bool of;
     
-	//Loop that does main operation, 16 times, or size of MD, which should be 16.
+    //Loop that does main operation, 16 times, or size of MD, which should be 16.
     for(int i = 0; i < MD.size(); i++){
         if(MQ[0] == 1)
             ALU_16bit(AC, MD, 2, AC, of);         //OP set to 2 for ADD operation.
@@ -217,12 +211,12 @@ int main()
 {
     vector<bool> MD = {1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0};	//MD
     vector<bool> MQ = {0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,1};	//MQ
-    vector<bool> PR;										//Product
+    vector<bool> PR;						//Product
     
-    Mult_16bit(MD, MQ, PR);									//Calls the main 16 bit Multiplier to do operation on MD and MQ, resulting in PR
+    Mult_16bit(MD, MQ, PR);					//Calls the main 16 bit Multiplier to do operation on MD and MQ, resulting in PR
 
     cout << "Product: ";
-    for(long i = PR.size()-1; i >= 0; i--)					//Prints out Product
+    for(long i = PR.size()-1; i >= 0; i--)			//Prints out Product
         cout << PR[i];
     cout << endl;
 
