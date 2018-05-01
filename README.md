@@ -13,6 +13,9 @@ Values are stored in vectors of boolean values:
  
  Counter is used to show steps in algorithm.
  
+ ## How to Run
+  - Compile and run main.cpp individually using C++11
+  - Open Visual Studio project file in folder SimulationProgram_CSCI113 and compile/run
  ### How to input values
  In [main](SimulationProgram_CSCI113/SimulationProgram_CSCI113/main.cpp):
   - Change vector MD's values to any 16-bit number for the Multiplicand
