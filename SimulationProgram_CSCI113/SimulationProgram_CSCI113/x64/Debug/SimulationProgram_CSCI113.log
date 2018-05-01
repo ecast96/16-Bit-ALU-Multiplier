@@ -1,0 +1,49 @@
+﻿Build started 4/19/2017 12:03:40 PM.
+     1>Project "E:\SimulationProgram_CSCI113\SimulationProgram_CSCI113\SimulationProgram_CSCI113.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(107): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>main.cpp(166): error C2552: 'AC' : non-aggregates cannot be initialized with initializer list
+                 'std::vector<_Ty>' : Types with a base are not aggregate
+                 with
+                 [
+                     _Ty=bool
+                 ]
+     1>main.cpp(167): error C2552: 'count' : non-aggregates cannot be initialized with initializer list
+                 'std::vector<_Ty>' : Types with a base are not aggregate
+                 with
+                 [
+                     _Ty=bool
+                 ]
+     1>main.cpp(171): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(174): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(177): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(180): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(195): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(198): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(201): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(204): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(216): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(219): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(222): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(225): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>main.cpp(240): error C2552: 'MD' : non-aggregates cannot be initialized with initializer list
+                 'std::vector<_Ty>' : Types with a base are not aggregate
+                 with
+                 [
+                     _Ty=bool
+                 ]
+     1>main.cpp(241): error C2552: 'MQ' : non-aggregates cannot be initialized with initializer list
+                 'std::vector<_Ty>' : Types with a base are not aggregate
+                 with
+                 [
+                     _Ty=bool
+                 ]
+     1>main.cpp(247): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>Done Building Project "E:\SimulationProgram_CSCI113\SimulationProgram_CSCI113\SimulationProgram_CSCI113.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.79
