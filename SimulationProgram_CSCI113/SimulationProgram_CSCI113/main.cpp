@@ -12,13 +12,6 @@
  Slot 0 in vector is 0th spot in 16 bit number.
  Enter number from left to right.
 
- Notes:
- 16Bit ALU is done by calling 1bit alu 16 times without a loop, which might not be an efficient way to do it.
- i tried to use a for loop, but i wasn't able to get it working for some reason.
-
-
-*/
-
 #include <iostream>
 #include <array>
 #include <vector>
